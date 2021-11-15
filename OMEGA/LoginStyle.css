@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    transition-duration: 0.5s;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(./img/omega-home-a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem auto;
+    overflow: hidden;
+  }
+  .bg{
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.589);
+  }
+section{
+    margin-top: 4rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+}
+.mail-pass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1rem;
+}
+label input{
+    background-color: rgba(216, 216, 216, 0.404);
+    border-style: none;
+    border-radius: 50px;
+    width: 18rem;
+    height: 2.8rem;
+    margin-top: 0.5rem;
+    outline: none;
+}
+#password, #mail{
+    padding-left: 1rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 0.9rem;
+}
+#password{
+    font-size: 1.5rem;
+}
+::placeholder{
+    font-size: 0.78rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.btn-login{
+    text-align: center;
+    width: 10rem;
+    height: 2.5rem;
+    color:rgba(251, 253, 255, 0.719);
+    border-style: none;
+    border-radius: 10rem;
+    cursor: pointer;
+    background-color: rgba(11, 96, 255, 0.692);
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 0.9rem;
+    margin-top: 1.2rem;
+}
+.btn-login:hover{
+    color:rgb(2, 98, 161);
+    background-color: rgba(0, 0, 0, 0.692);
+}
+h3{
+    position: relative;
+    font-size: 0.9rem;
+    text-align: left;
+}
+img{
+    margin-bottom: 0rem;
+}

@@ -1,0 +1,260 @@
+@media (min-width:1024px ){
+    nav{
+        padding-right: 2rem;
+        padding-left: 1rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    }
+    
+}
+@media (max-width: 1200px){
+/*----------------- Demos --------------------*/ 
+    .grid-container-1 {
+        grid-template-columns: auto auto;
+    }
+/*---------------- Contact ----------------*/
+.contact-us{
+    grid-template-columns: auto;
+    justify-content: stretch;
+    align-items: stretch;
+    grid-gap: 2rem;
+  }
+}
+@media (max-width: 1150px){
+/*----------------Accueil------------------*/
+    .right-side{
+        transform: scale(0.9);
+        margin-right: 3rem;
+      }
+}
+@media (max-width:1024px ){
+/*---------------Navigation bar---------------*/
+    .logo{
+        padding-left: 2rem;
+    }
+    #login{
+        padding-right: 2rem;
+    }
+    .nav_links{
+        position: fixed;
+        width: 100%;
+        height: auto;
+        top: -15rem;
+        margin-top: 1px;
+        text-align: center;
+        background-color: rgba(17, 22, 31, 0.514);
+    }
+    .nav_links li{
+        display: block;
+        line-height: 2.7rem;
+        width: 100vw;
+    }
+    .nav_links li a:hover{
+        background-color: beige;
+    }
+/*----------------Show Toggle Menu------------------*/
+    #toggle-icon{
+        display: block;
+    }
+    .show{
+        transition: ease-in-out;
+    }
+    nav.show{
+        background-color: rgba(17, 22, 31, 0.514);
+    }
+    .nav_links.show{
+        top: 4rem;
+        transition: 0.1s ease;
+        background-color: rgba(17, 22, 31, 0.514);
+    }
+/*----------------Accueil------------------*/
+    .shape-1{
+        left: 43%;
+    }
+    .right-side{
+        transform: scale(0.9);
+        margin-right: 4rem;
+    }
+/*----------------Actualités------------------*/
+    .actualite{
+        flex-direction: column;
+    }
+    .act-img1{
+        max-width: 25rem;
+        margin-bottom: 2rem;
+    }
+    .act-img{
+        margin-bottom: 2rem;
+    }
+/*----------------FAQ------------------*/
+    .faqs-grid{
+        grid-template-columns: auto;
+    }
+/*---------------- Contact ----------------*/
+    .our-contact{
+        display: block;
+        margin-top: 1rem;
+    }
+    .ctn{
+        margin-bottom: 1.5rem;
+    }
+    .bg-shape-light{
+        height: 15rem;
+    }
+}
+@media (max-width: 900px){
+    .right-side{
+        transform: scale(0.9);
+        margin-right: .5rem;
+      }
+/*---------- Demos ----------*/ 
+    .grid-container-1{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
+@media (max-width: 768px){
+/*---------------Navigation bar---------------*/
+    .logo{
+        padding-left: 1rem;
+    }
+    button {
+        background-color: transparent;
+    }
+    button h3{
+        display: none;
+    }
+    #transIcon{
+        display: none;
+      }
+    #roundedIcon{
+        display: block;
+        font-size: 1.5rem;
+        margin-right: .7rem;
+    }
+    #toggle-icon{
+        margin-left: .3rem;
+    }
+/*----------------Accueil------------------*/
+    .shape-1{
+        position: absolute;
+        top: 29rem;
+        left: -10rem;
+        width: 150rem;
+        height: 120rem;
+        transform: rotate(80deg);
+    }
+    .home-container{
+        display: block;
+      }
+    .left-side{
+        top: 6rem;
+        transform: scale(1);
+    }
+    .right-side{
+        transform: scale(0.8);
+        top: 14rem;
+    }
+    .home-quote{
+        max-width: 45rem;
+        margin: 0% auto;
+    }
+/*----------------FAQ------------------*/
+    #faq{
+        padding: 6rem 5rem 10rem 5rem;
+    }
+}
+@media(max-width:640px){
+/*----------------Accueil------------------*/
+    .right-side{
+        transform: scale(0.75);
+        top: 12.7rem;
+    }
+    .left-side{
+        left: -2.5rem;
+        transform: scale(0.9);
+    }
+/*----------------Actualités------------------*/
+    #ACT{
+        padding: 6rem 0rem;
+    }
+    .actualite{
+        margin-bottom: 0rem;
+        transform: scale(0.85);
+    }
+    .act-title{
+        margin-bottom: 1rem;
+        transform: scale(0.85);
+      }
+    .act-text{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+/*---------------- Contact ----------------*/
+    .contact-us{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .bg-shape-light{
+        display: none;
+    }
+}
+@media(max-width:440px){
+/*---------------Navigation bar---------------*/
+    .logo{
+        transform: scale(0.8);
+        margin-left: -1.5rem;
+    }
+    #roundedIcon{
+        font-size: 1.4rem;
+    }
+    #toggle-icon{
+        font-size: 1.4rem;
+    }
+    .nav_links li{
+        line-height: 2rem;
+    }
+    .nav-bar{
+        font-size: 0.9rem;
+    }
+/*----------------Accueil------------------*/
+    .left-side{
+        left: -2.5rem;
+        transform: scale(0.8);
+    }
+    .right-side{
+        transform: scale(0.7);
+        top: 9rem;
+    }
+    .home-quote{
+        margin: 0rem;
+    }
+    .shape-1{
+        top: 22rem;
+        transform: rotate(76deg);
+    }
+/*----------------- Demos --------------------*/
+    .dark-title{
+        font-size: 1.3rem;
+    }
+    .paragraph{
+        font-size: .9rem;
+    }
+/*----------------Actualités------------------*/
+    .actualite{
+        transform: scale(0.7);
+        justify-content: left;
+        margin-bottom: -12rem;
+    }
+/*----------------FAQ------------------*/
+#faq{
+    padding: 6rem 2rem 10rem 2rem;
+}
+}
+@media(max-width:340px){
+    .right-side{
+        transform: scale(0.64);
+        top: 7rem;
+    }
+}
